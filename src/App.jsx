@@ -5,7 +5,7 @@ import { useState } from "react";
 // importing global style
 import "./App.css";
 
-import Heading from "./Heading";
+import Heading from "./Heading.jsx";
 
 // this function runs the whole App() function which then fills the index.html page
 function App() {
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+    <Heading />
       <h1>Robert's React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
