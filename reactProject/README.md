@@ -11,13 +11,14 @@ Currently, two official plugins are available:
 Prerequisites:
 Make sure you have Git installed on your computer. If not, you can download and install it from [here](https://git-scm.com/).
 Make sure you have Node.js and npm installed. If not, you can download and install them from [here](https://nodejs.org/en).
+I also reccomend Git Bash terminal from [here](https://git-scm.com/downloads).
 
 Running the Application:
-1. Clone the Repository
+1. Clone the Repository:
    git clone <Repository_URL>
-2. Navigate to the Project Folder in Terminal
+2. Navigate to the Project Folder in Terminal:
    reactProject
-3. Run Application Command in Terminal
+3. Run Application Command in Terminal:
    npm run dev
-4. Go To Local URL
+4. Go To Local URL:
    http://127.0.0.1:5173/
