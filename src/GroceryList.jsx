@@ -1,5 +1,5 @@
 
-export default function GL({ items }) {
+function GL({ items }) {
     return (
         <ul>
              {items.map(i => <li style={{color: i.completed ? "green" : "red", 
@@ -10,3 +10,4 @@ export default function GL({ items }) {
     )
 }
 
+export { GL };
