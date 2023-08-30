@@ -6,11 +6,11 @@ import { useState } from "react";
 import "./App.css";
 
 import Heading from "./Heading.jsx";
+import Counting from "./Counting.jsx";
 
 // this function runs the whole App() function which then fills the index.html page
 function App() {
   const [count, setCount] = useState(0);
-
   return (
     <>
     <Heading />
@@ -20,6 +20,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Counting count={count}/>
     </>
   );
 }
