@@ -18,7 +18,7 @@ import WelcomeMessage from "./Name.jsx";
 import Heading from "./Heading";
 import ColorList from "./ColorList";
 import Slots from "./Slots.jsx";
-import { GL } from "./GroceryList.jsx";
+import GL from "./GroceryList.jsx";
 
 
 const data = [
