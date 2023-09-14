@@ -23,3 +23,5 @@ Running the Application:
    npm run dev
 4. Go To Local URL:
    http://127.0.0.1:5173/
+   OR
+   http://localhost:5173/
